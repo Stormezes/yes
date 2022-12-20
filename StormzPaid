@@ -6,13 +6,9 @@
 local PaidVersion = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Bar1 = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
 local Bar2 = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
 local Bar3 = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
 local Bar4 = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
 local SnowyTrees = Instance.new("ImageLabel")
 local AutoBuild = Instance.new("Folder")
 local Preview = Instance.new("TextButton")
@@ -34,31 +30,31 @@ local Slider = Instance.new("TextButton")
 local DarknessGradientFrame = Instance.new("TextButton")
 local Slider_2 = Instance.new("TextButton")
 local DarknessGradient = Instance.new("UIGradient")
-local Home = Instance.new("Folder")
+local Main_2 = Instance.new("Folder")
 local UserFrame = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local PlayerImage = Instance.new("ImageLabel")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local PlayerName = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local TextLabel_3 = Instance.new("TextLabel")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local TextLabel_6 = Instance.new("TextLabel")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local TextLabel_9 = Instance.new("TextLabel")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local LocalPlayer_2 = Instance.new("Folder")
 local Fly = Instance.new("TextButton")
 local WALKSPEED = Instance.new("TextBox")
@@ -70,7 +66,6 @@ local AutoFarm_2 = Instance.new("Folder")
 local StopAutoFarm = Instance.new("TextButton")
 local AutoFarm_3 = Instance.new("TextButton")
 local Bar = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
 local RainDrops = Instance.new("ImageLabel")
 local AutoChest_2 = Instance.new("Folder")
 local Frame_2 = Instance.new("Frame")
@@ -86,9 +81,9 @@ local RareLooped = Instance.new("TextButton")
 local UncommonLooped = Instance.new("TextButton")
 local CommonLooped = Instance.new("TextButton")
 local TextLabel_12 = Instance.new("TextLabel")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local TextLabel_13 = Instance.new("TextLabel")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local STOPCHESTLOOPED = Instance.new("TextButton")
 local AutoBlock_2 = Instance.new("Folder")
 local Frame_3 = Instance.new("Frame")
@@ -100,23 +95,6 @@ local Puttextnotlooped = Instance.new("TextLabel")
 local CHECKPOINT_2 = Instance.new("TextLabel")
 local ResumeLoop = Instance.new("TextButton")
 local DragBar = Instance.new("Frame")
-local UICorner_19 = Instance.new("UICorner")
-local TextLabel_14 = Instance.new("TextLabel")
-local UICorner_20 = Instance.new("UICorner")
-local ImageButton = Instance.new("ImageButton")
-local UICorner_21 = Instance.new("UICorner")
-local Frame_4 = Instance.new("Frame")
-local TextLabel_15 = Instance.new("TextLabel")
-local UICorner_22 = Instance.new("UICorner")
-local UICorner_23 = Instance.new("UICorner")
-local TextLabel_16 = Instance.new("TextLabel")
-local UICorner_24 = Instance.new("UICorner")
-local TextLabel_17 = Instance.new("TextLabel")
-local UICorner_25 = Instance.new("UICorner")
-local TextLabel_18 = Instance.new("TextLabel")
-local UICorner_26 = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
 
 --Properties:
 
@@ -126,44 +104,36 @@ PaidVersion.ResetOnSpawn = false
 
 Frame.Parent = PaidVersion
 Frame.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-Frame.Position = UDim2.new(0.0135221705, 0, 0.272789329, 0)
+Frame.Position = UDim2.new(0.0102585554, 0, 0.28515026, 0)
 Frame.Size = UDim2.new(0, 668, 0, 485)
 
 Bar1.Name = "Bar1"
 Bar1.Parent = Frame
-Bar1.BackgroundColor3 = Color3.fromRGB(5, 234, 255)
+Bar1.BackgroundColor3 = Color3.fromRGB(5, 243, 255)
 Bar1.BorderSizePixel = 0
 Bar1.Position = UDim2.new(1.00000012, 0, -0.0237467978, 0)
 Bar1.Size = UDim2.new(0, 10, 0, 504)
 
-UICorner.Parent = Bar1
-
 Bar2.Name = "Bar2"
 Bar2.Parent = Frame
-Bar2.BackgroundColor3 = Color3.fromRGB(5, 234, 255)
+Bar2.BackgroundColor3 = Color3.fromRGB(5, 243, 255)
 Bar2.BorderSizePixel = 0
-Bar2.Position = UDim2.new(-0.0170357525, 0, -0.0237467978, 0)
-Bar2.Size = UDim2.new(0, 10, 0, 504)
-
-UICorner_2.Parent = Bar2
+Bar2.Position = UDim2.new(-0.0170357525, 0, -0.00519009633, 0)
+Bar2.Size = UDim2.new(0, 10, 0, 495)
 
 Bar3.Name = "Bar3"
 Bar3.Parent = Frame
-Bar3.BackgroundColor3 = Color3.fromRGB(5, 234, 255)
+Bar3.BackgroundColor3 = Color3.fromRGB(5, 243, 255)
 Bar3.BorderSizePixel = 0
 Bar3.Position = UDim2.new(-0.0170357525, 0, 0.999999881, 0)
 Bar3.Size = UDim2.new(0, 689, 0, 9)
 
-UICorner_3.Parent = Bar3
-
 Bar4.Name = "Bar4"
 Bar4.Parent = Frame
-Bar4.BackgroundColor3 = Color3.fromRGB(5, 234, 255)
+Bar4.BackgroundColor3 = Color3.fromRGB(255, 116, 24)
 Bar4.BorderSizePixel = 0
 Bar4.Position = UDim2.new(-0.0170357749, 0, -0.0237467866, 0)
 Bar4.Size = UDim2.new(0, 607, 0, 9)
-
-UICorner_4.Parent = Bar4
 
 SnowyTrees.Name = "Snowy Trees"
 SnowyTrees.Parent = Frame
@@ -367,19 +337,18 @@ DarknessGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color
 DarknessGradient.Name = "DarknessGradient"
 DarknessGradient.Parent = DarknessGradientFrame
 
-Home.Name = "Home"
-Home.Parent = Frame
+Main_2.Name = "Main"
+Main_2.Parent = Frame
 
 UserFrame.Name = "User Frame"
-UserFrame.Parent = Home
+UserFrame.Parent = Main_2
 UserFrame.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
 UserFrame.BackgroundTransparency = 1.000
 UserFrame.Position = UDim2.new(0.0441947505, 0, 0.0345627666, 0)
 UserFrame.Size = UDim2.new(0, 188, 0, 352)
-UserFrame.Visible = false
 
-UICorner_5.CornerRadius = UDim.new(0, 20)
-UICorner_5.Parent = UserFrame
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = UserFrame
 
 TextLabel.Parent = UserFrame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -395,19 +364,19 @@ TextLabel.TextWrapped = true
 
 PlayerImage.Name = "PlayerImage"
 PlayerImage.Parent = UserFrame
-PlayerImage.BackgroundColor3 = Color3.fromRGB(255, 221, 84)
+PlayerImage.BackgroundColor3 = Color3.fromRGB(5, 243, 255)
 PlayerImage.Position = UDim2.new(0.713662982, 0, 0.232954532, 0)
 PlayerImage.Size = UDim2.new(0, 177, 0, 171)
 PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-UICorner_6.CornerRadius = UDim.new(0, 13)
-UICorner_6.Parent = PlayerImage
+UICorner_2.CornerRadius = UDim.new(0, 13)
+UICorner_2.Parent = PlayerImage
 
 PlayerName.Name = "PlayerName"
 PlayerName.Parent = UserFrame
 PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PlayerName.BackgroundTransparency = 1.000
-PlayerName.Position = UDim2.new(0.670287728, 0, 0.743026853, 0)
+PlayerName.Position = UDim2.new(0.66496855, 0, 0.822572291, 0)
 PlayerName.Size = UDim2.new(0, 193, 0, 18)
 PlayerName.Font = Enum.Font.GothamBold
 PlayerName.Text = "Unknown"
@@ -425,7 +394,7 @@ TextLabel_2.Text = "Updates:"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 32.000
 
-UICorner_7.Parent = TextLabel_2
+UICorner_3.Parent = TextLabel_2
 
 TextLabel_3.Parent = UserFrame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
@@ -436,7 +405,7 @@ TextLabel_3.Text = "•Added AutoFarm"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 23.000
 
-UICorner_8.Parent = TextLabel_3
+UICorner_4.Parent = TextLabel_3
 
 TextLabel_4.Parent = UserFrame
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
@@ -447,7 +416,7 @@ TextLabel_4.Text = "•Added Local Player"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextSize = 23.000
 
-UICorner_9.Parent = TextLabel_4
+UICorner_5.Parent = TextLabel_4
 
 TextLabel_5.Parent = UserFrame
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
@@ -458,11 +427,11 @@ TextLabel_5.Text = "•Auto Chest"
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.TextSize = 23.000
 
-UICorner_10.Parent = TextLabel_5
+UICorner_6.Parent = TextLabel_5
 
 TextLabel_6.Parent = UserFrame
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-TextLabel_6.Position = UDim2.new(0.920287788, 0, 1.03693199, 0)
+TextLabel_6.Position = UDim2.new(0.92028743, 0, 1.03693199, 0)
 TextLabel_6.Size = UDim2.new(0, 382, 0, 44)
 TextLabel_6.Font = Enum.Font.GothamBold
 TextLabel_6.Text = "The Auto Farm Makes you close to 132k Gold every 10 Hours"
@@ -471,8 +440,8 @@ TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 25.000
 TextLabel_6.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0, 4)
-UICorner_11.Parent = TextLabel_6
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = TextLabel_6
 
 TextLabel_7.Parent = UserFrame
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
@@ -485,8 +454,8 @@ TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 25.000
 TextLabel_7.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = TextLabel_7
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = TextLabel_7
 
 TextLabel_8.Parent = UserFrame
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
@@ -499,8 +468,8 @@ TextLabel_8.TextScaled = true
 TextLabel_8.TextSize = 25.000
 TextLabel_8.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(0, 4)
-UICorner_13.Parent = TextLabel_8
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = TextLabel_8
 
 TextLabel_9.Parent = UserFrame
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
@@ -513,22 +482,22 @@ TextLabel_9.TextScaled = true
 TextLabel_9.TextSize = 25.000
 TextLabel_9.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 4)
-UICorner_14.Parent = TextLabel_9
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = TextLabel_9
 
 TextLabel_10.Parent = UserFrame
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-TextLabel_10.Position = UDim2.new(1.23440051, 0, 0.843749821, 0)
-TextLabel_10.Size = UDim2.new(0, 262, 0, 39)
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(5, 243, 255)
+TextLabel_10.Position = UDim2.new(0.712840617, 0, -0.201704323, 0)
+TextLabel_10.Size = UDim2.new(0, 382, 0, 44)
 TextLabel_10.Font = Enum.Font.GothamBold
-TextLabel_10.Text = "Thanks For Buying the paid Version"
+TextLabel_10.Text = "PAID"
 TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.TextScaled = true
-TextLabel_10.TextSize = 14.000
+TextLabel_10.TextSize = 25.000
 TextLabel_10.TextWrapped = true
 
-UICorner_15.CornerRadius = UDim.new(0, 4)
-UICorner_15.Parent = TextLabel_10
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = TextLabel_10
 
 LocalPlayer_2.Name = "Local Player"
 LocalPlayer_2.Parent = Frame
@@ -633,12 +602,10 @@ AutoFarm_3.TextSize = 14.000
 
 Bar.Name = "Bar"
 Bar.Parent = Frame
-Bar.BackgroundColor3 = Color3.fromRGB(5, 234, 255)
+Bar.BackgroundColor3 = Color3.fromRGB(5, 243, 255)
 Bar.BorderSizePixel = 0
-Bar.Position = UDim2.new(0.21294719, 0, -0.0175612625, 0)
-Bar.Size = UDim2.new(0, 10, 0, 501)
-
-UICorner_16.Parent = Bar
+Bar.Position = UDim2.new(0.21294719, 0, -0.00519012753, 0)
+Bar.Size = UDim2.new(0, 10, 0, 487)
 
 RainDrops.Name = "RainDrops"
 RainDrops.Parent = Frame
@@ -788,7 +755,7 @@ TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.TextSize = 25.000
 TextLabel_12.TextWrapped = true
 
-UICorner_17.Parent = TextLabel_12
+UICorner_12.Parent = TextLabel_12
 
 TextLabel_13.Parent = Frame_2
 TextLabel_13.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
@@ -800,7 +767,7 @@ TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.TextSize = 25.000
 TextLabel_13.TextWrapped = true
 
-UICorner_18.Parent = TextLabel_13
+UICorner_13.Parent = TextLabel_13
 
 STOPCHESTLOOPED.Name = "STOP CHEST LOOPED"
 STOPCHESTLOOPED.Parent = Frame_2
@@ -818,8 +785,9 @@ AutoBlock_2.Parent = Frame
 
 Frame_3.Parent = AutoBlock_2
 Frame_3.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-Frame_3.Position = UDim2.new(0.229982987, 0, 0, 0)
-Frame_3.Size = UDim2.new(0, 514, 0, 485)
+Frame_3.Position = UDim2.new(0.229982972, 0, 0, 0)
+Frame_3.Size = UDim2.new(0, 452, 0, 379)
+Frame_3.Visible = false
 
 StopBuyLoop.Name = "Stop Buy Loop"
 StopBuyLoop.Parent = Frame_3
@@ -908,105 +876,14 @@ ResumeLoop.TextSize = 24.000
 
 DragBar.Name = "Drag Bar"
 DragBar.Parent = Frame
-DragBar.BackgroundColor3 = Color3.fromRGB(5, 234, 255)
+DragBar.BackgroundColor3 = Color3.fromRGB(5, 243, 255)
 DragBar.BorderSizePixel = 0
 DragBar.Position = UDim2.new(-0.0170357525, 0, -0.0237467978, 0)
 DragBar.Size = UDim2.new(0, 689, 0, 11)
 
-UICorner_19.Parent = DragBar
-
-TextLabel_14.Parent = Frame
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(5, 234, 255)
-TextLabel_14.Position = UDim2.new(0.305389225, 0, -0.0865979418, 0)
-TextLabel_14.Size = UDim2.new(0, 259, 0, 39)
-TextLabel_14.Font = Enum.Font.GothamBold
-TextLabel_14.Text = "PAID"
-TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.TextSize = 32.000
-
-UICorner_20.Parent = TextLabel_14
-
-ImageButton.Parent = TextLabel_14
-ImageButton.BackgroundColor3 = Color3.fromRGB(5, 234, 255)
-ImageButton.BackgroundTransparency = 1.000
-ImageButton.Position = UDim2.new(0.140707016, 0, -0.00555106904, 0)
-ImageButton.Size = UDim2.new(0, 52, 0, 42)
-ImageButton.Image = "http://www.roblox.com/asset/?id=4845733115"
-
-UICorner_21.Parent = ImageButton
-
-Frame_4.Parent = TextLabel_14
-Frame_4.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-Frame_4.Position = UDim2.new(-0.428571463, 0, 1.46153831, 0)
-Frame_4.Size = UDim2.new(0, 491, 0, 215)
-Frame_4.Visible = false
-
-TextLabel_15.Parent = Frame_4
-TextLabel_15.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-TextLabel_15.Position = UDim2.new(0.31164059, 0, 0.0521399453, 0)
-TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_15.Font = Enum.Font.GothamBold
-TextLabel_15.Text = "Stormz Was Made By"
-TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.TextSize = 14.000
-
-UICorner_22.CornerRadius = UDim.new(0, 4)
-UICorner_22.Parent = TextLabel_15
-
-UICorner_23.CornerRadius = UDim.new(0, 4)
-UICorner_23.Parent = Frame_4
-
-TextLabel_16.Parent = Frame_4
-TextLabel_16.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-TextLabel_16.Position = UDim2.new(0.389033616, 0, 0.309025884, 0)
-TextLabel_16.Size = UDim2.new(0, 123, 0, 19)
-TextLabel_16.Font = Enum.Font.GothamBold
-TextLabel_16.Text = "Devs"
-TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.TextSize = 14.000
-
-UICorner_24.CornerRadius = UDim.new(0, 4)
-UICorner_24.Parent = TextLabel_16
-
-TextLabel_17.Parent = Frame_4
-TextLabel_17.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-TextLabel_17.Position = UDim2.new(0.311640531, 0, 0.4330993, 0)
-TextLabel_17.Size = UDim2.new(0, 200, 0, 24)
-TextLabel_17.Font = Enum.Font.GothamBold
-TextLabel_17.Text = "Gut#5089"
-TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.TextSize = 14.000
-
-UICorner_25.CornerRadius = UDim.new(0, 4)
-UICorner_25.Parent = TextLabel_17
-
-TextLabel_18.Parent = Frame_4
-TextLabel_18.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-TextLabel_18.Position = UDim2.new(0.311640531, 0, 0.583589852, 0)
-TextLabel_18.Size = UDim2.new(0, 200, 0, 24)
-TextLabel_18.Font = Enum.Font.GothamBold
-TextLabel_18.Text = "arturo0_0#1441"
-TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_18.TextSize = 14.000
-
-UICorner_26.CornerRadius = UDim.new(0, 4)
-UICorner_26.Parent = TextLabel_18
-
-TextButton.Parent = Frame_4
-TextButton.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-TextButton.Position = UDim2.new(0.274949104, 0, 0.734883726, 0)
-TextButton.Size = UDim2.new(0, 236, 0, 50)
-TextButton.Font = Enum.Font.GothamBold
-TextButton.Text = "Ok! Thanks!"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextSize = 21.000
-
-UICorner_27.CornerRadius = UDim.new(0, 4)
-UICorner_27.Parent = TextButton
-
 -- Scripts:
 
-local function RBUEPDF_fake_script() -- AutoFarm.GO TO AUTOFARM 
+local function JGVKYCH_fake_script() -- AutoFarm.GO TO AUTOFARM 
 	local script = Instance.new('LocalScript', AutoFarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1047,8 +924,8 @@ local function RBUEPDF_fake_script() -- AutoFarm.GO TO AUTOFARM
 	end)
 	
 end
-coroutine.wrap(RBUEPDF_fake_script)()
-local function CFOSOZ_fake_script() -- LocalPlayer.GO TO LOCAL 
+coroutine.wrap(JGVKYCH_fake_script)()
+local function IYCLC_fake_script() -- LocalPlayer.GO TO LOCAL 
 	local script = Instance.new('LocalScript', LocalPlayer)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1089,8 +966,8 @@ local function CFOSOZ_fake_script() -- LocalPlayer.GO TO LOCAL
 	end)
 	
 end
-coroutine.wrap(CFOSOZ_fake_script)()
-local function YVACAE_fake_script() -- Main.GO TO MAIN 
+coroutine.wrap(IYCLC_fake_script)()
+local function KCZQ_fake_script() -- Main.GO TO MAIN 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1131,8 +1008,8 @@ local function YVACAE_fake_script() -- Main.GO TO MAIN
 	end)
 	
 end
-coroutine.wrap(YVACAE_fake_script)()
-local function NNXTIP_fake_script() -- Settings.GO TO SETTING 
+coroutine.wrap(KCZQ_fake_script)()
+local function YKRMLC_fake_script() -- Settings.GO TO SETTING 
 	local script = Instance.new('LocalScript', Settings)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1173,8 +1050,8 @@ local function NNXTIP_fake_script() -- Settings.GO TO SETTING
 	end)
 	
 end
-coroutine.wrap(NNXTIP_fake_script)()
-local function TSXFA_fake_script() -- AutoChest.GO TO SETTING 
+coroutine.wrap(YKRMLC_fake_script)()
+local function LCOVDF_fake_script() -- AutoChest.GO TO SETTING 
 	local script = Instance.new('LocalScript', AutoChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1216,8 +1093,8 @@ local function TSXFA_fake_script() -- AutoChest.GO TO SETTING
 	end)
 	
 end
-coroutine.wrap(TSXFA_fake_script)()
-local function DMUBJTO_fake_script() -- AutoBlock.GO TO SETTING 
+coroutine.wrap(LCOVDF_fake_script)()
+local function DYSHZF_fake_script() -- AutoBlock.GO TO SETTING 
 	local script = Instance.new('LocalScript', AutoBlock)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1256,16 +1133,16 @@ local function DMUBJTO_fake_script() -- AutoBlock.GO TO SETTING
 	end)
 	
 end
-coroutine.wrap(DMUBJTO_fake_script)()
-local function TQCKS_fake_script() -- DeleteGUI.LocalScript 
+coroutine.wrap(DYSHZF_fake_script)()
+local function WIUW_fake_script() -- DeleteGUI.LocalScript 
 	local script = Instance.new('LocalScript', DeleteGUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.Parent["Paid Version"]:Destroy()
+		script.Parent.Parent.Parent.Parent.Parent["Free Version"]:Destroy()
 		end)
 end
-coroutine.wrap(TQCKS_fake_script)()
-local function MKOVG_fake_script() -- Settings_2.COLOR BACKGROUND 
+coroutine.wrap(WIUW_fake_script)()
+local function GXYMLTV_fake_script() -- Settings_2.COLOR BACKGROUND 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local colourGradientFrame = script.Parent.ColourGradientFrame
@@ -1425,8 +1302,8 @@ local function MKOVG_fake_script() -- Settings_2.COLOR BACKGROUND
 	darknessSlider:GetPropertyChangedSignal("Position"):Connect(updateColourPreview1)
 	
 end
-coroutine.wrap(MKOVG_fake_script)()
-local function NACOE_fake_script() -- Settings_2.COLOR BAR 
+coroutine.wrap(GXYMLTV_fake_script)()
+local function OXJSQ_fake_script() -- Settings_2.COLOR BAR 
 	local script = Instance.new('LocalScript', Settings_2)
 
 	local colourGradientFrame = script.Parent.ColourGradientFrame
@@ -1578,8 +1455,8 @@ local function NACOE_fake_script() -- Settings_2.COLOR BAR
 	colourSlider:GetPropertyChangedSignal("Position"):Connect(updateColourPreview)
 	darknessSlider:GetPropertyChangedSignal("Position"):Connect(updateColourPreview)
 end
-coroutine.wrap(NACOE_fake_script)()
-local function ULCPP_fake_script() -- UserFrame.LocalScript 
+coroutine.wrap(OXJSQ_fake_script)()
+local function DFHRTLQ_fake_script() -- UserFrame.LocalScript 
 	local script = Instance.new('LocalScript', UserFrame)
 
 	local frame = script.Parent
@@ -1606,8 +1483,8 @@ local function ULCPP_fake_script() -- UserFrame.LocalScript
 	
 	frame.PlayerName.Text = player.Name
 end
-coroutine.wrap(ULCPP_fake_script)()
-local function YONED_fake_script() -- Fly.LocalScript 
+coroutine.wrap(DFHRTLQ_fake_script)()
+local function EAJW_fake_script() -- Fly.LocalScript 
 	local script = Instance.new('LocalScript', Fly)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1693,8 +1570,8 @@ local function YONED_fake_script() -- Fly.LocalScript
 		Fly()
 		end)
 end
-coroutine.wrap(YONED_fake_script)()
-local function UHNH_fake_script() -- WALKSPEED.LocalScript 
+coroutine.wrap(EAJW_fake_script)()
+local function MQFAOA_fake_script() -- WALKSPEED.LocalScript 
 	local script = Instance.new('LocalScript', WALKSPEED)
 
 	wait(2)
@@ -1706,8 +1583,8 @@ local function UHNH_fake_script() -- WALKSPEED.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.WALKSPEED.Text
 	end)
 end
-coroutine.wrap(UHNH_fake_script)()
-local function SLYIJD_fake_script() -- AntiAFK.ANTIAFK 
+coroutine.wrap(MQFAOA_fake_script)()
+local function OUQWD_fake_script() -- AntiAFK.ANTIAFK 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 	
@@ -1749,8 +1626,8 @@ local function SLYIJD_fake_script() -- AntiAFK.ANTIAFK
 		end)
 		end)
 end
-coroutine.wrap(SLYIJD_fake_script)()
-local function AUOASQW_fake_script() -- JUMP.LocalScript 
+coroutine.wrap(OUQWD_fake_script)()
+local function RSPL_fake_script() -- JUMP.LocalScript 
 	local script = Instance.new('LocalScript', JUMP)
 
 	wait(2)
@@ -1762,8 +1639,8 @@ local function AUOASQW_fake_script() -- JUMP.LocalScript
 		hum.JumpHeight = script.Parent.Parent.JUMP.Text
 	end)
 end
-coroutine.wrap(AUOASQW_fake_script)()
-local function TCHO_fake_script() -- StopAutoFarm.LocalScript 
+coroutine.wrap(RSPL_fake_script)()
+local function RJYB_fake_script() -- StopAutoFarm.LocalScript 
 	local script = Instance.new('LocalScript', StopAutoFarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1771,8 +1648,8 @@ local function TCHO_fake_script() -- StopAutoFarm.LocalScript
 		game.Workspace.Gravity = 196.2
 	end)
 end
-coroutine.wrap(TCHO_fake_script)()
-local function MEISSZU_fake_script() -- AutoFarm_3.LocalScript 
+coroutine.wrap(RJYB_fake_script)()
+local function IFYXFJL_fake_script() -- AutoFarm_3.LocalScript 
 	local script = Instance.new('LocalScript', AutoFarm_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1801,8 +1678,8 @@ local function MEISSZU_fake_script() -- AutoFarm_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(MEISSZU_fake_script)()
-local function IYEUUT_fake_script() -- Epic.Manager 
+coroutine.wrap(IFYXFJL_fake_script)()
+local function AOSHGMN_fake_script() -- Epic.Manager 
 	local script = Instance.new('LocalScript', Epic)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1815,8 +1692,8 @@ local function IYEUUT_fake_script() -- Epic.Manager
 	end)
 	
 end
-coroutine.wrap(IYEUUT_fake_script)()
-local function QNNQZ_fake_script() -- Legendary.Manager 
+coroutine.wrap(AOSHGMN_fake_script)()
+local function DMALWQ_fake_script() -- Legendary.Manager 
 	local script = Instance.new('LocalScript', Legendary)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1829,8 +1706,8 @@ local function QNNQZ_fake_script() -- Legendary.Manager
 	end)
 	
 end
-coroutine.wrap(QNNQZ_fake_script)()
-local function ZAKI_fake_script() -- Rare.Manager 
+coroutine.wrap(DMALWQ_fake_script)()
+local function YRICV_fake_script() -- Rare.Manager 
 	local script = Instance.new('LocalScript', Rare)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1843,8 +1720,8 @@ local function ZAKI_fake_script() -- Rare.Manager
 	end)
 	
 end
-coroutine.wrap(ZAKI_fake_script)()
-local function PHKO_fake_script() -- Uncommon.Manager 
+coroutine.wrap(YRICV_fake_script)()
+local function WWRK_fake_script() -- Uncommon.Manager 
 	local script = Instance.new('LocalScript', Uncommon)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1857,8 +1734,8 @@ local function PHKO_fake_script() -- Uncommon.Manager
 	end)
 	
 end
-coroutine.wrap(PHKO_fake_script)()
-local function XGLB_fake_script() -- Common.Manager 
+coroutine.wrap(WWRK_fake_script)()
+local function HPTZHJH_fake_script() -- Common.Manager 
 	local script = Instance.new('LocalScript', Common)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1871,8 +1748,8 @@ local function XGLB_fake_script() -- Common.Manager
 	end)
 	
 end
-coroutine.wrap(XGLB_fake_script)()
-local function VEYY_fake_script() -- LegendaryLooped.Manager 
+coroutine.wrap(HPTZHJH_fake_script)()
+local function KFVWMWW_fake_script() -- LegendaryLooped.Manager 
 	local script = Instance.new('LocalScript', LegendaryLooped)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1887,8 +1764,8 @@ local function VEYY_fake_script() -- LegendaryLooped.Manager
 	end)
 	
 end
-coroutine.wrap(VEYY_fake_script)()
-local function RPRN_fake_script() -- EpicLooped.Manager 
+coroutine.wrap(KFVWMWW_fake_script)()
+local function WCBQT_fake_script() -- EpicLooped.Manager 
 	local script = Instance.new('LocalScript', EpicLooped)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1903,8 +1780,8 @@ local function RPRN_fake_script() -- EpicLooped.Manager
 	end)
 	
 end
-coroutine.wrap(RPRN_fake_script)()
-local function QBKBTX_fake_script() -- RareLooped.Manager 
+coroutine.wrap(WCBQT_fake_script)()
+local function VIDFXW_fake_script() -- RareLooped.Manager 
 	local script = Instance.new('LocalScript', RareLooped)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1919,8 +1796,8 @@ local function QBKBTX_fake_script() -- RareLooped.Manager
 	end)
 	
 end
-coroutine.wrap(QBKBTX_fake_script)()
-local function RFNGU_fake_script() -- UncommonLooped.Manager 
+coroutine.wrap(VIDFXW_fake_script)()
+local function QVQC_fake_script() -- UncommonLooped.Manager 
 	local script = Instance.new('LocalScript', UncommonLooped)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1935,8 +1812,8 @@ local function RFNGU_fake_script() -- UncommonLooped.Manager
 	end)
 	
 end
-coroutine.wrap(RFNGU_fake_script)()
-local function ZQRBP_fake_script() -- CommonLooped.Manager 
+coroutine.wrap(QVQC_fake_script)()
+local function DVPMEB_fake_script() -- CommonLooped.Manager 
 	local script = Instance.new('LocalScript', CommonLooped)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1951,8 +1828,8 @@ local function ZQRBP_fake_script() -- CommonLooped.Manager
 	end)
 	
 end
-coroutine.wrap(ZQRBP_fake_script)()
-local function LEVBFJ_fake_script() -- STOPCHESTLOOPED.Manager 
+coroutine.wrap(DVPMEB_fake_script)()
+local function VNZVJI_fake_script() -- STOPCHESTLOOPED.Manager 
 	local script = Instance.new('LocalScript', STOPCHESTLOOPED)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1964,8 +1841,8 @@ local function LEVBFJ_fake_script() -- STOPCHESTLOOPED.Manager
 		script.Parent.Parent["Common Looped"].Manager.Enabled = false
 	end)
 end
-coroutine.wrap(LEVBFJ_fake_script)()
-local function SWHZG_fake_script() -- StopBuyLoop.LocalScript 
+coroutine.wrap(VNZVJI_fake_script)()
+local function TKNQY_fake_script() -- StopBuyLoop.LocalScript 
 	local script = Instance.new('LocalScript', StopBuyLoop)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1973,8 +1850,8 @@ local function SWHZG_fake_script() -- StopBuyLoop.LocalScript
 		script.Parent.Parent["WhatBuy?"].LocalScript.Enabled = false
 	end)
 end
-coroutine.wrap(SWHZG_fake_script)()
-local function PGPU_fake_script() -- WhatBuy.LocalScript 
+coroutine.wrap(TKNQY_fake_script)()
+local function XILVZ_fake_script() -- WhatBuy.LocalScript 
 	local script = Instance.new('LocalScript', WhatBuy)
 
 	script.Parent.Changed:Connect(function()
@@ -1991,8 +1868,8 @@ local function PGPU_fake_script() -- WhatBuy.LocalScript
 		end 
 	end)
 end
-coroutine.wrap(PGPU_fake_script)()
-local function JULTJC_fake_script() -- WhatBuyNOTLOOPED.LocalScript 
+coroutine.wrap(XILVZ_fake_script)()
+local function SOEPUT_fake_script() -- WhatBuyNOTLOOPED.LocalScript 
 	local script = Instance.new('LocalScript', WhatBuyNOTLOOPED)
 
 	script.Parent.Changed:Connect(function()
@@ -2009,16 +1886,16 @@ local function JULTJC_fake_script() -- WhatBuyNOTLOOPED.LocalScript
 		end 
 	end)
 end
-coroutine.wrap(JULTJC_fake_script)()
-local function BOZZTP_fake_script() -- ResumeLoop.LocalScript 
+coroutine.wrap(SOEPUT_fake_script)()
+local function YBVZEH_fake_script() -- ResumeLoop.LocalScript 
 	local script = Instance.new('LocalScript', ResumeLoop)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.CHECKPOINT.Transparency = 0
 	end)
 end
-coroutine.wrap(BOZZTP_fake_script)()
-local function CHFO_fake_script() -- Frame.Toggle UI 
+coroutine.wrap(YBVZEH_fake_script)()
+local function ZJYFK_fake_script() -- Frame.Toggle UI 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent -- path to the frame
@@ -2030,18 +1907,9 @@ local function CHFO_fake_script() -- Frame.Toggle UI
 		end
 	end)
 end
-coroutine.wrap(CHFO_fake_script)()
-local function QGZSH_fake_script() -- TextButton.Close 
-	local script = Instance.new('LocalScript', TextButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
-	
-end
-coroutine.wrap(QGZSH_fake_script)()
-local function FVJQC_fake_script() -- TextLabel_14.Dragify 
-	local script = Instance.new('LocalScript', TextLabel_14)
+coroutine.wrap(ZJYFK_fake_script)()
+local function QJXYK_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
 	function dragify(Frame)
@@ -2081,4 +1949,4 @@ local function FVJQC_fake_script() -- TextLabel_14.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(FVJQC_fake_script)()
+coroutine.wrap(QJXYK_fake_script)()
